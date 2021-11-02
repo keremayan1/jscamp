@@ -18,6 +18,7 @@ function findPrime(...numbers) {
     } 
    
 }
+findPrime(2,35,23,99,101)
 
 //2. Odev
 function friendNumber(number1, number2) {
@@ -82,7 +83,7 @@ mukemmelSayilar();
          }
      }
   }
-  
+  IsPrime();
   
 
   
