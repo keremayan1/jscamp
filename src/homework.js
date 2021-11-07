@@ -1,4 +1,4 @@
-//1. Odev 
+//1. Odev  
 function findPrime(...numbers) {
       
     for (let i = 0; i < numbers.length; i++){
