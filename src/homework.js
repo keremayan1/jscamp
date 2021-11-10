@@ -18,7 +18,7 @@ function findPrime(...numbers) {
     } 
    
 }
-findPrime(2,35,23,99,101)
+//findPrime(2,35,23,99,101)
 
 //2. Odev
 function friendNumber(number1, number2) {
@@ -44,7 +44,7 @@ function friendNumber(number1, number2) {
       console.log("Arkadaş Sayı Değil");
     }
   }
-  friendNumber(220, 284);
+  //friendNumber(220, 284);
    
   
   //3. Odev
@@ -62,7 +62,7 @@ function friendNumber(number1, number2) {
         }
     }
 }
-mukemmelSayilar();
+//mukemmelSayilar();
   
   
   //4. Odev
@@ -83,9 +83,22 @@ mukemmelSayilar();
          }
      }
   }
-  IsPrime();
+  //IsPrime();
   
-
+  function add(bisey, ...numbers) {
+    let total = 0;
+    for (let i = 0; i < numbers.length; i++) {
+      total += numbers[i];
+      
+      console.log(bisey);
+      console.log(Math.max(numbers[i]));
+      console.log(total);
+    
+    }
+    
+  }
+  
+  add("12",30,40,50);
   
   
   

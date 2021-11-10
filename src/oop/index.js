@@ -7,8 +7,8 @@ export class Customer {
 var customer = new Customer(1, "123456");
 //prototyping
 
-customer.name = "Murat Kurtbogan";
-console.log(customer.name);
+customer.adi = "Murat Kurtbogan";
+console.log(Customer.adi);
 
 Customer.bisey = "bisey";
 console.log(customer.bisey);
@@ -24,6 +24,6 @@ export class IndiviualCustomer extends Customer {
 class CorporateCustomer extends Customer {
   constructor(companyName, id, customerNumber) {
     super(id, customerNumber);
-    this.companyName = companyName;
+    this.companyName = companyName; 
   }
 }

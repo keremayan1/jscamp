@@ -59,11 +59,13 @@ function addToCart(/*Default Deger*/ quantity, productName = "Elma") {
     for (let i = 0; i < numbers.length; i++) {
       total += numbers[i];
       console.log(total);
-      console.log(bisey);
+      
       console.log(Math.max(numbers[i]));
     }
+    console.log(bisey);
   }
-  add(20, 30, 30); // let numbers =[20,30] ==> ...numbers'a gonderdi
+  
+  add("alsdhasdg",12,30); // let numbers =[20,30] ==> ...numbers'a gonderdi
   
   //Spread
   //Spread'in rest'ten tek farki fonksiyonlara yazilamamasi
